@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      transition: 1s;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      position: relative;
+      text-align: center;
+      font-family: '微軟正黑體';
+      height: 100vh;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    h1 {
+      padding: -4px;
+      margin: -4px;
+    }
+
+    .imgs {
+      width: 250px;
+      margin-top: 1rem;
+    }
+
+    div::after {
+      position: absolute;
+      content: " ";
+      left: 50%;
+      transform: translateX(-50%);
+      width: 450px;
+      height: 2px;
+      background: #7a7676;
+    }
+
+    @media(min-width: 576px) {
+
+      hr,
+      p {
+        display: none;
+      }
+
+      #wda p {
+        display: block;
+      }
+
+
+      #wda {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+      }
+
+      #html {
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        transform: scale(0.8);
+        position: absolute;
+      }
+
+      #js {
+        position: absolute;
+        top: 25%;
+        left: 13%;
+        transform: scale(0.8);
+        position: absolute;
+      }
+
+      #jquery {
+        position: absolute;
+        bottom: 0;
+        left: 15%;
+        transform: scale(0.8);
+        position: absolute;
+      }
+
+      #vue {
+        position: absolute;
+        right: 20%;
+        bottom: 0;
+        transform: scale(0.8);
+        position: absolute;
+      }
+
+      #sass {
+        position: absolute;
+        top: 26%;
+        right: 5%;
+        transform: scale(0.8);
+        position: absolute;
+      }
+
+      #bootstrap {
+        position: absolute;
+        top: 0%;
+        right: 20%;
+        transform: scale(0.8);
+        position: absolute;
+      }
+
+      #css {
+        position: absolute;
+        top: -5%;
+        left: 30%;
+        transform: scale(0.8);
+        position: absolute;
+      }
+
+      #css::after {
+        position: absolute;
+        content: " ";
+        left: 220px;
+        top: 300px;
+        transform: rotate(45deg);
+        transform-origin: left center;
+        width: 100px;
+        height: 2px;
+        background: #7a7676;
+      }
+
+      #html::after {
+        position: absolute;
+        content: " ";
+        left: 250px;
+        top: 230px;
+        transform: rotate(15deg);
+        transform-origin: left center;
+        width: 610px;
+        height: 2px;
+        background: #7a7676;
+      }
+
+      #js::after {
+        position: absolute;
+        content: " ";
+        left: 260px;
+        top: 230px;
+        transform: rotate(-10deg);
+        transform-origin: left center;
+        width: 410px;
+        height: 2px;
+        background: #7a7676;
+      }
+
+      #jquery::after {
+        position: absolute;
+        content: " ";
+        left: 260px;
+        top: 35px;
+        transform: rotate(-28deg);
+        transform-origin: left center;
+        width: 430px;
+        height: 2px;
+        background: #7a7676;
+      }
+
+      #wda::after {
+        display: none;
+      }
+
+      #vue::after {
+        position: absolute;
+        content: " ";
+        left: -220px;
+        top: -150px;
+        transform: rotate(28deg);
+        transform-origin: left center;
+        width: 290px;
+        height: 2px;
+        background: #7a7676;
+      }
+
+      #sass::after {
+        position: absolute;
+        content: " ";
+        left: -320px;
+        top: 150px;
+        transform-origin: left center;
+        width: 520px;
+        height: 2px;
+        background: #7a7676;
+      }
+
+      #bootstrap::after {
+        position: absolute;
+        content: " ";
+        left: -260px;
+        top: 380px;
+        transform: rotate(-30deg);
+        transform-origin: left center;
+        width: 330px;
+        height: 2px;
+        background: #7a7676;
+      }
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wda">
+    <img src="./wda.png" class="imgs">
+    <h1>泰山職訓局</h1>
+    <h2>從零開始的網頁設計課程</h2>
+    <p style="text-align: center;">轉職網頁開發人員　掌握就業必備職能<br>
+      由淺入深學習技術　強化職場的競爭力</p>
+  </div>
+
+  <div id="html">
+    <img src="./html.png" class="imgs">
+    <h1>Html</h1>
+    <p>
+      HTML是一種基礎技術，常與CSS、JavaScript一起被眾多網站用於設計網頁、網頁應用程式以及行動應用程式的使用者介面。網頁瀏覽器可以讀取HTML檔案，並將其彩現成視覺化網頁。HTML描述了一個網站的結構語意隨著線索的呈現，使之成為一種標記語言而非程式語言。
+    </p>
+  </div>
+
+  <div id="css">
+    <img src="./css.png" class="imgs">
+    <h1>CSS3</h1>
+    <p>階層式樣式表（英語：Cascading Style
+      Sheets，縮寫：CSS；又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣式表）是一種用來為結構化文件（如HTML文件或XML應用）添加樣式（字型、間距和顏色等）的電腦語言，由W3C定義和維護。CSS3現在已被大部分現代瀏覽器支援，而下一版的CSS4仍在開發中。
+    </p>
+  </div>
+
+  <div id="js">
+    <img src="./js.png" class="imgs">
+    <h1>JavaScript</h1>
+    <p>
+      JavaScript（通常縮寫為JS）是一門基於原型和頭等函數的多範式進階直譯程式語言，它支援物件導向程式設計、指令式編程和函數式程式設計。它提供方法來操控文字、陣列、日期以及正規表示式等。不支援I/O，比如網路、儲存和圖形等，但這些都可以由它的宿主環境提供支援。
+      <br>
+      它由Ecma透過ECMAScript實作語言的標準化。目前，它被世界上的絕大多數網站所使用，也被世界主流瀏覽器（Chrome、IE、Firefox、Safari和Opera）所支援。
+    </p>
+  </div>
+
+  <div id="jquery">
+    <img src="./jq.png" class="imgs">
+    <h1>jQuery</h1>
+    <p>jQuery是一套跨瀏覽器的JavaScript函式庫，用於簡化HTML與JavaScript之間的操作。約翰·雷西格（John Resig）在2006年1月的BarCamp NYC上釋出了第一個版本。目前由Dave
+      Methvin領導的團隊進行開發。全球前10,000個訪問最高的網站中，有65%使用了jQuery，是曾經最受歡迎的JavaScript函式庫。</p>
+  </div>
+
+  <div id="vue">
+    <img src="./vue.png" class="imgs">
+    <h1>Vue.js</h1>
+    <p>Vue.js（簡稱Vue）是一個用於建立使用者介面的開源MVVM前端JavaScript框架，也是一個建立單頁應用的Web應用框架。Vue.js由尤雨溪建立，由他和其他活躍的核心團隊成員維護。
+
+      2016年一項針對JavaScript框架的調查表明，Vue有著89%的開發者滿意度。在GitHub上，該專案平均每天能收穫95顆星，為GitHub有史以來星標數第3多的專案。</p>
+  </div>
+
+  <div id="sass">
+    <img src="./sass.png" class="imgs">
+    <h1>Sass</h1>
+    <p>Sass（英文全稱：Syntactically Awesome Stylesheets）是一個最初由Hampton Catlin設計並由Natalie
+      Weizenbaum開發的層疊樣式表語言。在開發最初版本之後，Weizenbaum和Chris Eppstein繼續通過SassScript來繼續擴充Sass的功能。SassScript是一個在Sass檔案中使用的小型手稿語言。
+    </p>
+  </div>
+
+  <div id="bootstrap">
+    <img src="./bs.png" class="imgs">
+    <h1>Bootstrap</h1>
+    <p>
+      Bootstrap是一組用於網站和網路應用程式開發的開源前端（所謂「前端」，指的是展現給終端使用者的介面。與之對應的「後端」是在伺服器上面執行的代碼）框架，包括HTML、CSS及JavaScript的框架，提供字體排印、表單、按鈕、導航及其他各種元件及Javascript擴充套件，旨在使動態網頁和Web應用的開發更加容易。
+    </p>
+  </div>
+</body>
+
+</html>
